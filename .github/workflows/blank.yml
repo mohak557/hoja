@@ -23,8 +23,6 @@ jobs:
 
       run: | 
 
-        copy nssm.exe C:\Windows\System32
-
         copy ngrok.exe C:\Windows\System32
 
     - name: Connect your NGROK account
